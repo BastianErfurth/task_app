@@ -13,18 +13,15 @@ class MyStatelessWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text("Hello Bastian"),
-            Center(
-              child: ElevatedButton(onPressed: null, child: Text("Klick mich")),
-            )
-          ],
+    return const Column(
+      children: [
+        Center(
+          child: Text("Hello Bastian"),
         ),
-      ),
+        Center(
+          child: ElevatedButton(onPressed: null, child: Text("Klick mich")),
+        ),
+      ],
     );
   }
 }
