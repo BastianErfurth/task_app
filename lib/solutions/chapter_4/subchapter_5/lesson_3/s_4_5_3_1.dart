@@ -17,7 +17,10 @@ class MyWidget extends StatelessWidget {
       children: [
         Container(height: 100, width: 100, color: Colors.blueGrey),
         Container(height: 100, width: 100, color: Colors.blue),
-        Container(height: 100, width: 100, color: Colors.cyan),
+        Container(
+            height: 100,
+            width: 100,
+            color: const Color.fromARGB(4, 64, 72, 100)),
       ],
     );
   }
